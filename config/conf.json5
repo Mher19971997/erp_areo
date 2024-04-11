@@ -1,0 +1,29 @@
+{
+  "app": {
+    "http": {
+      "port": 3001
+    }
+  },
+  "crypto": {
+    "jwt": {
+      "secret": "jwt-secret",
+      "extraOptions": {
+        "shortExpiresIn": "1 d",
+        "longExpiresIn": "30 d"
+      },
+      "signOptions": {
+        "algorithm": "HS256",
+        "expiresIn": "365 d"
+      }
+    }
+  },
+  "db": {
+    "mysql": {
+      "host": "localhost",
+      "user": "mysqluser",
+      "password": "rB4dRlyn38F75Sg13Xd5iNM1wfSYZY708gh",
+      "port": 3306,
+      "database": "dev"
+    }
+  }
+}

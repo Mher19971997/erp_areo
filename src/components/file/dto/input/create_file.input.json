@@ -1,0 +1,35 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "filename": {
+            "type": "string"
+        },
+        "mimetype": {
+            "type": "string"
+        },
+        "size": {
+            "type": "number"
+        },
+        "path": {
+            "type": "string"
+        },
+        "destination": {
+            "type": "string"
+        },
+        "encoding": {
+            "type": "string"
+        },
+        "fieldname": {
+            "type": "string"
+        },
+        "originalname": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "filename",
+        "mimetype",
+        "size"
+    ]
+}
